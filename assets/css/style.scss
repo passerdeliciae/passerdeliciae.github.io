@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+html { font-size: 18px; }
+
+body {
+  font-size: 1rem;     /* = 18px now */
+  line-height: 1.4;
+  font-family: "EB Garamond", Garamond, serif;
+}
+a {
+	color: #ff5400;
+}
+
+a:hover, a:focus {
+	color: red;
+	font-weight: regular;
+}
+img[alt="Logo"] {
+  width: 225px;     /* adjust as desired */
+  height: auto;     /* keeps proportions */
+}
