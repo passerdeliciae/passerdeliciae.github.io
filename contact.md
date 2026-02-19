@@ -1,6 +1,6 @@
 ---
 layout: page
 title: contact me
-permalink: about/contact
+permalink: /contact
 ---
 <p>Contact me at xyz</p>
