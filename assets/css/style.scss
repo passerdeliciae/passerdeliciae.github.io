@@ -14,10 +14,14 @@ a {
 }
 
 a:hover, a:focus {
-	color: red;
-	font-weight: regular;
+	color: gold;
+	font-weight: normal;
 }
 img[alt="Logo"] {
   width: 225px;     /* adjust as desired */
   height: auto;     /* keeps proportions */
+}
+
+ul {
+	line-height: 1.4;
 }

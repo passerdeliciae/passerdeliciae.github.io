@@ -16,3 +16,8 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+
+<h1>Collections</h1>
+<ul>
+  <li><a href="{{ 'topics/latin/' | relative_url }}">Latin</a> ({{ site.categories.latin | size }})</li>
+</ul>
