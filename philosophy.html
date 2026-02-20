@@ -1,0 +1,20 @@
+---
+layout: default
+title: Philosophy
+permalink: /philosophy/
+---
+
+<h1>Philosophy</h1>
+
+<ul>
+  {% for post in site.categories.philosophy %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Future projects</h2>
+
+<p>1) a chronology of early Greek and Roman philosophers</p><br>

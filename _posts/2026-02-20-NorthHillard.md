@@ -4,6 +4,7 @@ title: "North and Hillard"
 categories: [latin, nh]
 tags: [nh, latin]
 ---
+![image](/assets/img/pompeii-graffiti-from-the-house_sm.gif){: width="100"}
 
 M.A. North and A.E. Hillard's *Latin Prose Composition* is a compendium of brief lessons on the fundamentals of composition. It is available at [Archive Online](https://archive.org/details/north-m.-hilladr-a.-latin-prose-composition-1913/mode/2up).
 
