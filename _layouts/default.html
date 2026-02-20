@@ -29,9 +29,9 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <h4>Topics</h4>
         	<p><a href="{{ '/' | relative_url }}">Home</a></p>
-        	<p><a href="{{ 'philosophy/' | relative_url }}">Philosophy</a> ({{ site.categories.philosophy | size }})</p>
-			<p><a href="{{ 'latin/' | relative_url }}">Latin</a> ({{ site.categories.latin | size }})</p>
-			<p><a href="{{ 'ancient-greek/' | relative_url }}">Ancient Greek</a> ({{ site.categories.ancient-greek | size }})</p>
+        	<p><a href="{{ '/philosophy/' | relative_url }}">Philosophy</a> ({{ site.categories.philosophy | size }})</p>
+			<p><a href="{{ '/latin/' | relative_url }}">Latin</a> ({{ site.categories.latin | size }})</p>
+			<p><a href="{{ '/ancient-greek/' | relative_url }}">Ancient Greek</a> ({{ site.categories.ancient-greek | size }})</p>
 
         <!-- 
 {% if site.github.is_project_page %}
