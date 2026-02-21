@@ -18,7 +18,7 @@ a:hover, a:focus {
 	font-weight: normal;
 }
 img[alt="Logo"] {
-  width: 225px;     /* adjust as desired */
+  width: 75%;     /* adjust as desired */
   height: auto;     /* keeps proportions */
 }
 
@@ -34,5 +34,14 @@ mark {
 
 
 section {
-	width: 575px;
+  width: 100%;          /* default for small screens */
+  max-width: 600px;    /* prevents it from becoming too wide */
+  margin: 0 auto;      /* center horizontally */
+}
+
+/* Larger screens (tablets and up) */
+@media (min-width: 768px) {
+  section {
+    width: 70%;
+  }
 }
